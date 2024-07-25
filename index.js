@@ -148,7 +148,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 if (player1.length != 0){
                     let temp = Math.floor(Math.random() * player1.length);
                     host.push(player1[temp]);
-                    updateText("Host picked the " + decodeURIComponent(player1[temp].src))
+                    updateText("Host picked the " + decodeURIComponent(player1[temp].src).replace("%20",).replace(".png",' '))
                     player1.splice(temp, 1);
                     host = removeDuplicates(host)
 
@@ -156,14 +156,14 @@ document.addEventListener("DOMContentLoaded", function() {
                 else if(player2.length != 0){
                     let temp = Math.floor(Math.random() * player2.length);
                     host.push(player2[temp]);
-                    updateText("Host picked the " + decodeURIComponent(player2[temp].src))
+                    updateText("Host picked the " + decodeURIComponent(player2[temp].src).replace("%20",).replace(".png",' '))
                     player2.splice(temp, 1);
                     host = removeDuplicates(host)
                 }
                 else if(player3.length != 0){
                     let temp = Math.floor(Math.random() * player3.length);
                     host.push(player3[temp]);
-                    updateText("Host picked the " + decodeURIComponent(player3[temp].src))
+                    updateText("Host picked the " + decodeURIComponent(player3[temp].src).replace("%20",).replace(".png",' '))
                     player3.splice(temp, 1);
                     host = removeDuplicates(host)
                 }
