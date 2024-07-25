@@ -260,7 +260,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 changeButtonText("Start Over")
                 setTimeout(() => {
                     action = false;
-                }, 1000);
+                }, 1);
             }
 
             else if (winners[0] == true && winners[1] == false && winners[2] == true && winners[3] == true){
@@ -271,7 +271,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 changeButtonText("Start Over")
                 setTimeout(() => {
                     action = false;
-                }, 1000);
+                }, 1);
             }
 
             else if (winners[0] == true && winners[1] == true && winners[2] == false && winners[3] == true){
@@ -282,7 +282,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 changeButtonText("Start Over")
                 setTimeout(() => {
                     action = false;
-                }, 1000);
+                }, 1);
             }
 
             else if (winners[0] == true && winners[1] == true && winners[2] == true && winners[3] == false){
@@ -293,7 +293,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 changeButtonText("Start Over")
                 setTimeout(() => {
                     action = false;
-                }, 1000);
+                }, 1);
             }
         }
 
